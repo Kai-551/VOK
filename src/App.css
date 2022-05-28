@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "AmboyBlack";
+  src: local('Amboy Black'), url('./assets/Amboy-Black.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "AcuminBook";
+  src: local('Acumin Book'), url('./assets/Acumin-Pro-Book.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "AcuminLight";
+  src: local('Acumin Light'), url('./assets/Acumin-Pro-Light.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "AcuminBlack";
+  src: local('Acumin Light'), url('./assets/Acumin-Pro-Black.ttf') format("truetype");
+}
+
+h1, h2, h3 {
+  font-family: "AmboyBlack";
+}
+
+h4 {
+  font-family: "AcuminBook";
+}
+
+p {
+  font-family: "AcuminLight";
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bgd-valor {
+  /*background-color: #8f0100; */
+  background-color: #c90000;
+}
+
+.bgl-valor {
+  background-color: #e70304;
+}
+
+#steps {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(69,69,69,1) 40%, rgba(154,154,154,1) 70%, rgba(255,255,255,1) 85%);
+} 
+
+#utilities {
+  background: url(./assets/vokBGleft.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#faq {
+  background: url(./assets/VokBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.font-AcuminBlack {
+  font-family: "AcuminBlack";
+}
