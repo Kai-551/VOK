@@ -112,28 +112,28 @@ body {
   background: url(./assets/Kai.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 350px;
+  min-height: 360px;
 }
 
 #lady {
   background: url(./assets/Lady.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 350px;
+  min-height: 360px;
 }
 
 #tor {
   background: url(./assets/Tor.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 350px;
+  min-height: 360px;
 }
 
 #mouse {
   background: url(./assets/Mouse.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 350px;
+  min-height: 360px;
 }
 
 #roadmapBanner {
