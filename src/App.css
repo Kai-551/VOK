@@ -34,9 +34,13 @@ p {
   font-family: "AcuminLight";
 }
 
+body {
+  scroll-margin-top: 550px;
+}
 
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -76,7 +80,7 @@ p {
 
 .bgd-valor {
   /*background-color: #8f0100; */
-  background-color: #c90000;
+  background-color: #6d050c;
 }
 
 .bgl-valor {
@@ -102,4 +106,38 @@ p {
 
 .font-AcuminBlack {
   font-family: "AcuminBlack";
+}
+
+#kai {
+  background: url(./assets/Kai.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 350px;
+}
+
+#lady {
+  background: url(./assets/Lady.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 350px;
+}
+
+#tor {
+  background: url(./assets/Tor.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 350px;
+}
+
+#mouse {
+  background: url(./assets/Mouse.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 350px;
+}
+
+#roadmapBanner {
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0.01) 54%), url(./assets/roadmap2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

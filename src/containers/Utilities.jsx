@@ -5,7 +5,7 @@ const Utilities = () => {
 return (
     <div id="utilities" className="w-full text-left bg-black text-white">
         <div className="">
-            <h2 className="text-xl md:text-4xl uppercase p-24">NFT Utilities</h2>
+            <h2 className="text-xl md:text-8xl uppercase p-24">NFT Utilities</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3">
             <div className="col-span-2">

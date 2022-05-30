@@ -4,10 +4,10 @@ import bannerlogo from '../assets/vkbannerlogo.jpeg'
 const Vision = () => {
 
 return (
-    <div className="w-full mx-auto bg-black">
+    <div id="vision" className="w-full mx-auto bg-black">
         <div className="grid grid-cols-1 md:grid-cols-2 text-white">
             <div className="p-12">
-                <h2 className="text-2xl md:text-4xl">Our Vision</h2>
+                <h2 className="text-2xl md:text-8xl">Our Vision</h2>
                 <div className="mx-auto pt-12">
                     <p className="text-lg md:text-xl ">“You make most of your money in a bear market; you just don’t realize it at the time.” </p>
                     <p className="text-base md:text-xl ">- Investor Shelby Davis </p>
@@ -44,9 +44,7 @@ return (
                 <p className="text-lg md:text-xl">Every owner is an equal share member. Want to invest for a select period of time then split the ENTIRE treasury (original treasury and all the profits) , send monthly profits to everyone or would you just keep compounding profits to make even more money? </p>
             </div>
         </div>
-        <div className="">
-            <img src={bannerlogo} alt="Valor of Knightfall Banner" className="w-full text-center" width="100%"></img>
-        </div>
+        
     </div>
 
 )
