@@ -10,7 +10,7 @@ const FAQ = () => {
 
 return (
     <div id="faq" className="w-full mx-auto pt-20 pb-20">
-        <div className="mb-12">
+        <div className="mb-40">
             <h2 className="text-xl md:text-8xl uppercase">FAQ</h2>
         </div>
         <div className="w-4/5 md:w-3/4 mx-auto">
@@ -37,8 +37,8 @@ return (
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <div className=" rounded-lg text-black pl-12 pt-4 pb-4">
-                        <p className="text-lg md:text-xl">Whitelist Launch 6/10/2022 24 hours</p>
-                        <p className="text-lg md:text-xl">Public sale 6/11/2022</p>
+                        <p className="text-lg md:text-xl">Whitelist Launch 6/10/2022 24 hours - Two mints per wallet address</p>
+                        <p className="text-lg md:text-xl">Public sale 6/11/2022 - Ten mints per wallet address</p>
                     </div>
                 </AccordionItemPanel>
             </AccordionItem>
