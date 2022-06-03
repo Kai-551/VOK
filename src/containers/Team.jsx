@@ -8,7 +8,7 @@ const Team = () => {
 return (
     <div className="w-full mx-auto bg-black pb-24">
         <div className="">
-            <h2 id="team" className="text-xl text-white md:text-8xl uppercase p-24 pb-4 ">Team</h2>
+            <h2 id="team" className="text-xl text-white md:text-4xl uppercase p-24 pb-4 ">Team</h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mb-12">
             <div className="w-3/4 mx-auto rounded-lg bgd-valor mt-12">

@@ -7,7 +7,7 @@ return (
     <div id="vision" className="w-full mx-auto bg-black">
         <div className="grid grid-cols-1 md:grid-cols-2 text-white">
             <div className="p-12">
-                <h2 className="text-2xl md:text-8xl">Our Vision</h2>
+                <h2 className="text-2xl md:text-4xl">Our Vision</h2>
                 <div className="mx-auto pt-12">
                     <p className="text-lg md:text-xl ">“You make most of your money in a bear market; you just don’t realize it at the time.” </p>
                     <p className="text-base md:text-xl ">- Investor Shelby Davis </p>
