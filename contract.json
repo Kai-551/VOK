@@ -1,0 +1,8 @@
+{
+    "name": "Valor of Knightfall",
+    "description": "Valor of Knightfall NFT colleciton",
+    "image": "https://vknightfall.io/static/media/vkteaser.6ce752ca762c9d1dcaf3.jpegg",
+    "external_link": "https://vknightfall.io/",
+    "seller_fee_basis_points": 500, 
+    "fee_recipient": "0xC7769462aAC96CC3CFbDc3BF061b7B656F747B9F"
+  }
