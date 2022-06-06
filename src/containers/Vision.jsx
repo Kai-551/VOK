@@ -1,5 +1,12 @@
 import teaser from '../assets/vkteaser.jpeg'
 import bannerlogo from '../assets/vkbannerlogo.jpeg'
+import mail from '../assets/mail.png'
+import twitter from '../assets/twitter.png'
+import opensea from '../assets/opensea.png'
+import assure from '../assets/assure.png'
+import raritylogo from '../assets/Rarity logo.png'
+
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Vision = () => {
 
@@ -17,6 +24,14 @@ return (
             </div>
             <div className="">
                 <img src={teaser} className="mx-auto" width="50%" alt="VK Teaser"></img>
+                <Link to="mint" className="text-center" ><button className="uppercase font-bold  bgd-valor p-2 pl-8 pr-8 text-white rounded-lg text-2xl md:text-4xl bg-red-500 hover:bg-red-400 mb-4">Mint</button></Link>
+                <div className="">
+                    <a href="mailto:knightfallnft@protonmail.com" className="inline-block pr-8" target="_blank" rel="noreferrer"><img src={mail} alt="Mail logo" className="transform hover:scale-110" width="30"></img></a>
+                    <a href="https://twitter.com/Vknightfall" className="inline-block pr-8" target="_blank" rel="noreferrer"><img src={twitter} alt="Twitter logo" className="transform hover:scale-110" width="30"></img></a>
+                    <a href="https://opensea.io/collection/vknights" className="inline-block pr-8" target="_blank" rel="noreferrer"><img src={opensea} alt="Opensea logo" className="transform hover:scale-110" width="30"></img></a>
+                    <a href="https://www.assuredefi.io/projects/valor-of-knightfall/ " className="inline-block pr-8" target="_blank" rel="noreferrer"><img src={assure} alt="Assure logo" className="transform hover:scale-110" width="30"></img></a>
+                    <a href="https://raritysniper.com/nft-drops-calendar" className="inline-block pr-8" target="_blank" rel="noreferrer"><img src={raritylogo} alt="Assure logo" className="transform hover:scale-110" width="30"></img></a>
+                </div>
             </div>
         </div>
         <div id="steps" className="grid grid-cols-1 md:grid-cols-3 text-white">

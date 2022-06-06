@@ -1,4 +1,5 @@
 import roadmapbanner from '../assets/roadmap.jpeg'
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Roadmap = () => {
 
@@ -50,6 +51,10 @@ All “Original” holders have first priority for the new whitelist.
 What could the future hold?
                 </p>
             </div>
+        </div>
+        <div className="mt-24 ">
+            <h3 className="text-2xl md:text-4xl uppercase inline-block">Join the Valor</h3>
+            <Link to="mint" className="" ><button className="inline-block ml-8 -mt-2 uppercase font-bold bgd-valor p-2 pl-8 pr-8 text-white rounded-lg text-2xl md:text-4xl bg-red-500 hover:bg-red-400">Mint</button></Link>
         </div>
     </div>
 
