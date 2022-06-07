@@ -11,7 +11,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/interfaces/IERC2981.sol";
 import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol';
 
-contract vknights is ERC721Enumerable, Ownable, IERC2981 {
+contract ValorKnights is ERC721Enumerable, Ownable, IERC2981 {
     using Strings for uint256;
 
     /// @notice base attributes of the contract*/
@@ -66,7 +66,7 @@ contract vknights is ERC721Enumerable, Ownable, IERC2981 {
         uint16 _royaltyBasisPoints,
         string memory _newRevealURI,
         string memory _newContractURI
-    ) ERC721("Valor of Knightfall", "VoK") {
+    ) ERC721("Valor Knights", "VoK") {
         tokenCounter = 0;
         setBaseURI(_newBaseURI);
         setroyaltyReceiver(_royaltyReceiver);
