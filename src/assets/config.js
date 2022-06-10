@@ -1,4 +1,4 @@
-	export const ValorAddress = "0x8B12a6Fd0DA2022D3Dc8b120944C5df6493Ac0Cd"
+	export const ValorAddress = "0x90a0A8D4BE11207b5702884B984272c071f8f3Db"
 	export const targetChain = "4"
 
 export const ABI =[
